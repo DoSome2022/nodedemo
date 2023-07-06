@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Test</title>
+</head>
+<body>
+    <ul>
+        <li><a href="/input/">Display</a></li>
+        <li><a href="/input/PostInput">Input</a></li>
+    </ul>
+    <h1>Display</h1>
+    <div>
+        <%  inputs.forEach((input)=>{ %>
+
+            <label for="Input1">Input1</label>
+            <p><%= input.Input1  %></p>
+            <label for="Input2">Input2</label>
+            <p><%= input.Input2 %></p>
+            
+            <%  })  %>
+    </div>
+</body>
+</html>

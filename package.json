@@ -1,0 +1,21 @@
+{
+  "name": "deploynode",
+  "version": "1.0.0",
+  "description": "node -v 16.20.1",
+  "main": "app.js",
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "SD":"nodemon app.js"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "dotenv": "^16.3.1",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "mongoose": "^6.11.1",
+    "nodemon": "^2.0.22"
+  }
+}
